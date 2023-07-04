@@ -2,6 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: rgb(255, 255, 255);
 }
 
 header {
@@ -50,11 +51,14 @@ section {
   margin-left: 30vw;
   margin-top: 10px;
 }
+
+
 #projetos{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  
 }
 #projetos h2{
   width: 100vw;
@@ -68,6 +72,7 @@ section {
   padding: 2px;
   width: 40vw;
   height: 30vw;
+  background-color: bisque;
   
   box-shadow: 10px 10px 10px 5px black;
 }
